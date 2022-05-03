@@ -1,1 +1,2 @@
-﻿
+﻿CREATE TABLE Faktura (id int identity(1,1) primary key, datum date, číslo int, odběratel varchar(20))
+CREATE TABLE Tabulka2 (id int identity(1,1) primary key, počet int, "cena za neco" int, "celkova cena" int, DPH int, "cena s DPH" int)
